@@ -41,6 +41,31 @@ namespace NavigationLayout
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f050002
+			public const int nav_about = 2131034114;
+			
+			// aapt resource value: 0x7f050003
+			public const int nav_feedback = 2131034115;
+			
+			// aapt resource value: 0x7f050000
+			public const int nav_home = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int nav_messages = 2131034113;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
@@ -53,6 +78,22 @@ namespace NavigationLayout
 			}
 			
 			private Layout()
+			{
+			}
+		}
+		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int menu = 2130968576;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
 			{
 			}
 		}
